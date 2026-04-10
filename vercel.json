@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://chromewebstore.google.com/detail/prodigy-origin-prodigy-mo/mbjjannikkfihddnepoionimbedjnbib?utm_source=extension.prodigyorigin.com",
+      "statusCode": 301
+    }
+  ]
+}
