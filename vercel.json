@@ -3,7 +3,7 @@
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "firefox.prodigyorigin.com" }],
-      "destination": "https://addons.mozilla.org/en-US/firefox/addon/prodigyorigin/",
+      "destination": "https://addons.mozilla.org/en-US/firefox/addon/playorigin/",
       "statusCode": 301
     },
     {
@@ -51,7 +51,7 @@
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "firefox.playorig.in" }],
-      "destination": "https://addons.mozilla.org/en-US/firefox/addon/prodigyorigin/",
+      "destination": "https://addons.mozilla.org/en-US/firefox/addon/playorigin/",
       "statusCode": 301
     },
     {
