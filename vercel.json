@@ -89,6 +89,18 @@
       "has": [{ "type": "host", "value": "gh.playorig.in" }],
       "destination": "https://github.com/ProdigyPXP",
       "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "privacy.playorig.in" }],
+      "destination": "https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/meta/PRIVACY_POLICY.md",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "privacypolicy.playorig.in" }],
+      "destination": "https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/meta/PRIVACY_POLICY.md",
+      "statusCode": 301
     }
   ]
 }
