@@ -17,3 +17,18 @@ This repository contains the Vercel redirect configuration for Play Origin (form
 
 - `vercel.json`: redirect rules and status codes
 - `public/index.html`: minimal static fallback page
+
+## playorig.in subdomains
+
+| Subdomain | Destination | Status |
+|---|---|---|
+| `extension.playorig.in`, `ext.playorig.in` | `playorig.in/get` (temp, until store listings live) | 302 |
+| `chrome.playorig.in` | `playorig.in/get` (temp, until Chrome Web Store listing) | 302 |
+| `edge.playorig.in` | Microsoft Edge Add-ons listing | 301 |
+| `firefox.playorig.in` | Firefox AMO listing | 301 |
+| `discord.playorig.in`, `dsc.playorig.in` | `dsc.gg/ProdigyPXP` | 301 |
+| `youtube.playorig.in`, `yt.playorig.in` | `youtube.com/@ProdigyPXP` | 301 |
+| `github.playorig.in`, `gh.playorig.in` | `github.com/ProdigyPXP` | 301 |
+
+DNS: `playorig.in` has a wildcard Vercel ALIAS — no per-subdomain DNS records needed.
+All subdomains are served by the `origin-redirect` Vercel project.
