@@ -23,6 +23,72 @@
       "has": [{ "type": "host", "value": "extension.prodigyorigin.com" }],
       "destination": "https://prodigyorigin.com/get",
       "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "extension.playorig.in" }],
+      "destination": "https://playorig.in/get",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "ext.playorig.in" }],
+      "destination": "https://playorig.in/get",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "chrome.playorig.in" }],
+      "destination": "https://playorig.in/get",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "edge.playorig.in" }],
+      "destination": "https://microsoftedge.microsoft.com/addons/detail/prodigy-hacking-extension/ekoakjipfmjpmlkldiikhoigaflfkjej",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "firefox.playorig.in" }],
+      "destination": "https://addons.mozilla.org/en-US/firefox/addon/prodigyorigin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "discord.playorig.in" }],
+      "destination": "https://dsc.gg/ProdigyPXP",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "dsc.playorig.in" }],
+      "destination": "https://dsc.gg/ProdigyPXP",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "youtube.playorig.in" }],
+      "destination": "https://youtube.com/@ProdigyPXP",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "yt.playorig.in" }],
+      "destination": "https://youtube.com/@ProdigyPXP",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "github.playorig.in" }],
+      "destination": "https://github.com/ProdigyPXP",
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "gh.playorig.in" }],
+      "destination": "https://github.com/ProdigyPXP",
+      "statusCode": 301
     }
   ]
 }
