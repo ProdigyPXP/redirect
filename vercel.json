@@ -15,31 +15,13 @@
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "chrome.prodigyorigin.com" }],
-      "destination": "https://chromewebstore.google.com/detail/prodigy-origin-prodigy-mo/mbjjannikkfihddnepoionimbedjnbib?utm_source=chrome.prodigyorigin.com",
-      "statusCode": 301
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "extension.prodigyorigin.com" },
-        { "type": "header", "key": "user-agent", "value": ".*Edg/.*" }
-      ],
-      "destination": "https://microsoftedge.microsoft.com/addons/detail/prodigy-hacking-extension/ekoakjipfmjpmlkldiikhoigaflfkjej",
-      "statusCode": 302
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "extension.prodigyorigin.com" },
-        { "type": "header", "key": "user-agent", "value": ".*Firefox/.*" }
-      ],
-      "destination": "https://addons.mozilla.org/en-US/firefox/addon/prodigyorigin/",
+      "destination": "https://prodigyorigin.com/get",
       "statusCode": 302
     },
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "extension.prodigyorigin.com" }],
-      "destination": "https://chromewebstore.google.com/detail/prodigy-origin-prodigy-mo/mbjjannikkfihddnepoionimbedjnbib?utm_source=extension.prodigyorigin.com",
+      "destination": "https://prodigyorigin.com/get",
       "statusCode": 302
     }
   ]
