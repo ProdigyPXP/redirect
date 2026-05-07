@@ -1,6 +1,6 @@
 # redirect
 
-This repository contains the Vercel redirect configuration for Prodigy Origin extension links.
+This repository contains the Vercel redirect configuration for Play Origin (formerly Prodigy Origin) extension links. The `prodigyorigin.com` domain is kept verbatim — see `../ProdigyOrigin/meta/REBRAND.md`.
 
 ## What it does
 
@@ -10,7 +10,7 @@ This repository contains the Vercel redirect configuration for Prodigy Origin ex
 - Routes `extension.prodigyorigin.com` → **temporary** → `prodigyorigin.com/get` (Chrome Web Store unavailable)
 
 > **Temporary:** `chrome.prodigyorigin.com` and `extension.prodigyorigin.com` previously linked directly to
-> store listings. They now redirect to the website's /get page while Prodigy Origin is unavailable on the
+> store listings. They now redirect to the website's /get page while Play Origin is unavailable on the
 > Chrome Web Store. Restore the original rules once the Chrome listing is reinstated.
 
 ## Files
