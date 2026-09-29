@@ -15,8 +15,8 @@
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "chrome.prodigyorigin.com" }],
-      "destination": "https://prodigyorigin.com/get",
-      "statusCode": 302
+      "destination": "https://chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo",
+      "statusCode": 301
     },
     {
       "source": "/(.*)",
@@ -39,8 +39,8 @@
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "chrome.playorig.in" }],
-      "destination": "https://playorig.in/get",
-      "statusCode": 302
+      "destination": "https://chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo",
+      "statusCode": 301
     },
     {
       "source": "/(.*)",
